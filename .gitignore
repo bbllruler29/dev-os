@@ -1,0 +1,18 @@
+# Environment variables (never commit real secrets)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+
+# Next.js app
+contractiq-app/node_modules/
+contractiq-app/.next/
+contractiq-app/out/
+contractiq-app/build/
+contractiq-app/.env
+contractiq-app/.env.local
+contractiq-app/.env.*.local
+contractiq-app/next-env.d.ts
+contractiq-app/*.tsbuildinfo
